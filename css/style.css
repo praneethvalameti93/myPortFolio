@@ -1,0 +1,156 @@
+.body {
+  background: #F4F6DB;
+  /* background: #F0E0FF; */
+}
+
+.headerNav{
+  background: #E7E7E7;
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  /* justify-content: space-between; */
+}
+
+.mainLogo{
+  width: 20%;
+  height: 100%;
+}
+
+.headding {
+  margin-left: 60%;
+  width: 30%;
+  /* text-align: right; */
+  /* padding-right: 2%; */
+  /* background: #ECF0EF; */
+  /* position: fixed; */
+  /* padding: .3%; */
+  /* opacity: 0.5; */
+}
+
+.mainSection{
+  /* margin-top: 5%; */
+}
+
+#logo {
+  width: 3vw;
+}
+
+.iconic {
+  width: 100%;
+  height: 70vh;
+  border-radius: 2%;
+}
+
+.mainDiv {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.sub {
+  width: 27vw;
+  height: 40vh;
+  border-radius: 2%;
+  box-shadow: 2px 0px 28px #CCC;
+  /* box-shadow: 2px 0px 8px 4px; */
+  margin: 2%;
+  text-align: center;
+}
+
+.sub:hover {
+  margin-top: -5px;
+}
+
+.image {
+  border-radius: 2%;
+  margin-top: 2%;
+  width: 90%;
+  height: 78%;
+}
+
+.footer {
+  text-align: center;
+  padding: 0.2%;
+  background: #CECFC7;
+}
+
+@media screen and (min-width:360px) and (max-width:480px) {
+  .body {
+    background: white;
+  }
+
+  .mainDiv {
+    display: inline-block;
+  }
+
+  .sub {
+    width: 100%;
+    background: #F4F6DB;
+    margin-left: 0;
+    margin-top: 4%;
+  }
+
+  .headerNav{
+    height: 10vh;
+  }
+
+  .headding {
+    width: 50%;
+    font-size: 18pt;
+    margin-left: 20%;
+  }
+
+  .mainLogo{
+    width: 30%;
+    height: 100%;
+  }
+  .iconic {
+    width: 100%;
+    height: 30vh;
+  }
+
+  .caption {
+    font-size: 16pt;
+  }
+
+  .footer {
+    text-align: center;
+    padding: 1.5%;
+    background: #CECFC7;
+  }
+
+}
+
+@media screen and (min-width:481px) and (max-width:780px) {
+  .sub {
+    width: 40%;
+  }
+
+  .iconic {
+    height: 40%;
+  }
+
+  .headerNav{
+    height: 10vh;
+  }
+  .headding {
+    width: 40%;
+    margin-left: 25%;
+    font-size: 32pt;
+  }
+
+  .mainLogo{
+    width: 30%;
+    height: 100%;
+  }
+  .caption {
+    font-size: 20pt;
+  }
+  .footer {
+    text-align: center;
+    font-size: 18pt;
+    padding: 1.5%;
+    background: #CECFC7;
+  }
+
+}
